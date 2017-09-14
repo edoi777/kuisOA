@@ -123,7 +123,7 @@ class Webhook extends CI_Controller {
 					$this->line_model->pushTextMessage($this->user['uid'], "No. Masih salah. Ayo, satu kesempatan menebak lagi. Pikirkan baik-baik!");
 				} else {
 					$this->line_model->pushStickerMessage($this->user['uid'], 1, 100);
-					$this->line_model->pushTextMessage($this->user['uid'], "Hahaha.. dasar pecund*ang! Pertanyaan gampang aja ga bisa. Huuu..");
+					$this->line_model->pushTextMessage($this->user['uid'], "Hahaha.. dasar pecund*ang! Pertanyaan gampang aja ga bisa. Huuu.. Jawabannya harusnya {$this->user['answer']}!");
 					
 					$this->line_model->pushTextMessage($this->user['uid'], 'Penasaran? Ga yakin Kamu bisa jawab. Yang barusan aja kagak. Tapi kalo masih penasaran, ketik "mulai"!');
 				}
