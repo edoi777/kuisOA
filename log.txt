@@ -1,1 +1,8 @@
 {}
+{"events":[{"type":"follow","replyToken":"3690fd22455040279e25a25e6fd98230","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400554220}]}
+{"events":[{"type":"follow","replyToken":"3690fd22455040279e25a25e6fd98230","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400554220}]}
+{"events":[{"type":"follow","replyToken":"3690fd22455040279e25a25e6fd98230","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400554220}]}
+{"events":[{"type":"follow","replyToken":"3690fd22455040279e25a25e6fd98230","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400554220}]}
+{}
+{}
+{}

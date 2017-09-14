@@ -154,7 +154,7 @@ class Line_model extends CI_Model {
 
 	function saveUser($uid)
 	{
-		if($user = $this->db->where('uid', $uid)->get()->row_array())
+		if($user = $this->db->where('uid', $uid)->get('users')->row_array())
 			return $user;
 
 		$data = json_decode($this->getProfile($uid), true);
@@ -163,7 +163,7 @@ class Line_model extends CI_Model {
 			'nama' => $data['displayName'],
 			'avatar' => $data['pictureUrl']
 		];
-		$this->db->insert('tebakkata', $user);
+		$this->db->insert('users', $user);
 		$user['id'] = $this->db->insert_id();
 		return $user;
 	}
