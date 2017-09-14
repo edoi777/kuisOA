@@ -5,6 +5,12 @@ class Line_model extends CI_Model {
 
 	private $accessToken = "B0KFf3Qy6s9wjULoIqxXSM6luGTyJyZ55mYAh9vSqKS3JFTvsNx/O/vjdrkBYqB8Lj1jE7w6N8YnJMAT1PMaSoTxzyfWahmYENqR0zhCFZNd60pBlgdei4wuD5VZjibWGZLUT4iLkQUXMUlFvVJEDQdB04t89/1O/w1cDnyilFU=";
 
+	function __construct()
+	{
+		parent::__construct();
+		$this->load->database();
+	}
+
 	public function pushTextMessage($uid, $text)
 	{
 		$data['to'] = $uid;
@@ -144,6 +150,22 @@ class Line_model extends CI_Model {
 	{
 		$url = "https://api.line.me/v2/bot/profile/". $uid;
 		return $this->sendGetRequest($url);
+	}
+
+	function saveUser($uid)
+	{
+		if($user = $this->db->where('uid', $uid)->get()->row_array())
+			return $user;
+
+		$data = json_decode($this->getProfile($uid), true);
+		$user = [
+			'uid' => $data['userId'],
+			'nama' => $data['displayName'],
+			'avatar' => $data['pictureUrl']
+		];
+		$this->db->insert('tebakkata', $user);
+		$user['id'] = $this->db->insert_id();
+		return $user;
 	}
 
 }

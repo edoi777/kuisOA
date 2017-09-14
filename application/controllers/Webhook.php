@@ -5,9 +5,14 @@ class Webhook extends CI_Controller {
 
 	private $myUID = "U3cc5055a5edee58cec04540a1ed0fe02";
 
+	function __construct()
+	{
+		parent::__construct();
+		$this->load->model('line_model');
+	}
+
 	public function index()
 	{
-		$this->load->model('line_model');
 
 		// if it is not POST request, just say hello
 		if ($_SERVER['REQUEST_METHOD'] !== 'POST')
@@ -45,13 +50,19 @@ class Webhook extends CI_Controller {
 
 					default: continue;
 				}
-			}
+			} 
+
+			// when user follow/add friend the bot
+			else if($event['type'] == 'follow')
+			{
+				$this->responseFollowEvent($event);
+			} 
 		}
 	}
 
 	function responseTextMessage($event)
 	{
-		
+				
 
 		$this->line_model->pushTextMessage($event['source']['userId'], $event['message']['text']);
 
@@ -61,6 +72,21 @@ class Webhook extends CI_Controller {
 	{
 		$this->line_model->pushStickerMessage($event['source']['userId'], $event['message']['packageId'], $event['message']['stickerId']);
 
+	}
+
+	function responseFollowEvent($event)
+	{
+		$user = $this->line_model->saveUser($event['source']['userId']);
+		$this->line_model->pushTextMessage($user['uid'], "Halo {$user['nama']}, salam kenal!");
+		$this->line_model->pushTextMessage($user['uid'], "Pada game ini Kamu diminta untuk menebak kata apa yang aku maksud. Kamu bisa menebak huruf demi huruf atau langsung menebak katanya. Kamu punya kesempatan maksimal 3 kali tebakan salah.");
+		$this->line_model->pushTextMessage($user['uid'], 'Untuk memulai silakan ketikkan perintah "mulai"');
+	}
+
+	function coba()
+	{
+		$data = $this->line_model->getProfile($this->myUID);
+
+		print_r($data);
 	}
 
 
