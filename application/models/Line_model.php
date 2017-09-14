@@ -170,12 +170,7 @@ class Line_model extends CI_Model {
 
 	function resetUser($uid)
 	{
-		$user = [
-			'state' => 0,
-			'answer' => NULL,
-			'next_question' => 0
-		];
-		$this->db->where('uid', $uid)->update('users', $user);
+		$this->db->where('uid', $uid)->delete('users');
 		return $this->db->affected_rows();
 	}
 
