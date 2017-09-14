@@ -168,4 +168,53 @@ class Line_model extends CI_Model {
 		return $user;
 	}
 
+	function resetUser($uid)
+	{
+		$user = [
+			'state' => 0,
+			'answer' => NULL,
+			'next_question' => 0
+		];
+		$this->db->where('uid', $uid)->update('users', $user);
+		return $this->db->affected_rows();
+	}
+
+	function getUser($uid)
+	{
+		$data = $this->db->where('uid', $uid)->get('users')->row_array();
+		if(!empty($data))
+			return $data;
+
+		return false;
+	}
+
+	function updateState($uid, $state = false)
+	{
+		if($state !== false)
+			$this->db->set('state', $state);
+		else
+			$this->db->set('state', 'state - 1', FALSE);
+
+		$this->db->where('uid', $uid)->update('users');
+
+		return $this->db->affected_rows();
+	}
+
+	function generateAnswer($uid, $next_question)
+	{
+		$questions = json_decode(file_get_contents('questions.json'), true);
+		if($next_question >= count($questions))
+			$next_question = 0;
+
+		// take one next question to be returned
+		$question = $questions[$next_question];
+
+		// save answer and index for next question
+		$data['answer'] = $questions[$next_question]['answer'];
+		$data['next_question'] = ++$next_question;
+		$this->db->where('uid', $uid)->update('users', $data);
+
+		return $question;
+	}
+
 }

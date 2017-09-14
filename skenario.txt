@@ -11,27 +11,17 @@ ketik "mulai" dulu, Gan :D
 	mulai
 
 (event:message, {checkState, updateState, setAnswer, pushTextMessage})
-Oke, tebak dengan mengirim satu huruf untuk membuka karakter satu per satu. 
-Kesempatanmu menebak salah cuma 5 kali eaa
-_ _ _ _ _ _ _
+Soal: Hewan yang biasa digunakan untuk berkuda
 
-	A
-
-(event:message, {checkState, checkAnswer, pushTextMessage})
-Yup, ada yang terbuka! Lanjutkan!
-A _ _ _ _ _ _
-
-	X
+	AYAM
 
 (event:message, {checkState, checkAnswer, updateState, pushTextMessage})
-Ow ow oww.. huruf B tidak terdapat dalam kata. 
-Kesempatan salah 4 kali lagi
-A _ _ _ _ _ _
+Ow ow oww.. masih salah. Coba tebak lagi. Kesempatan salah 2 kali lagi
 
-	S
+	KUDA
 
 (event:message, {checkState, checkAnswer, updateState, pushTextMessage})
-Selamaat, Kamu berhasil!
+Yup benaaar, Kamu berhasil!
 Sticker (y)
 
 // Yaaah.. Kesempatanmu habis.
