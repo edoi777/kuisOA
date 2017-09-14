@@ -1,0 +1,7 @@
+production:
+    host: files.000webhost.com
+    user: linebotsample
+    pass: Nyan000890*()
+    path:
+        local: /
+        remote: /public_html
