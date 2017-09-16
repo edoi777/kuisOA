@@ -97,6 +97,12 @@ class Line_m extends CI_Model {
 		];
 	}
 
+	function writeLog($content)
+	{
+		$this->load->helper('file');
+		write_file('log.txt', $content, 'a+');
+	}
+
 	function sendRequest($uid, $uri, $messages = [])
 	{	
 		$url = 'https://api.line.me/v2/bot/message/' . $uri;
@@ -159,7 +165,49 @@ class Line_m extends CI_Model {
 		return $this->db->affected_rows();
 	}
 
+	function checkState($uid)
+	{
+		$data = $this->db->where('uid', $uid)->get('users')->row_array();
+		return $data['state'];
+	}
 
+	function updateState($uid, $state = 0)
+	{
+		$this->db->set('state', $state);
+		$this->db->where('uid', $uid)->update('users');
+	}
 
+	function checkNextQuestion($uid)
+	{
+		$data = $this->db->where('uid', $uid)->get('users')->row_array();
+		return $data['next_question'];
+	}
 
+	function saveAnswer($uid, $answer)
+	{
+		$this->db->set('answer', $answer);
+		$this->db->where('uid', $uid)->update('users');
+	}
+
+	function checkAnswer($uid, $answer)
+	{
+		$data = $this->db->where('uid', $uid)->get('users')->row_array();
+		$rightAnswer = $data['answer'];
+		if(strtolower($rightAnswer) == strtolower($answer))
+			return true;
+
+		return false;
+	}
+
+	function setNextQuestion($uid)
+	{
+		$last_question = $this->checkNextQuestion($uid);
+
+		if($last_question >= 4)
+			$this->db->set('next_question', 0);
+		else
+			$this->db->set('next_question', 'next_question + 1', false);
+
+		$this->db->where('uid', $uid)->update('users');
+	}
 }
