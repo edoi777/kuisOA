@@ -98,7 +98,7 @@ class Line_m extends CI_Model {
 	}
 
 	function sendRequest($uid, $uri, $messages = [])
-	{
+	{	
 		$url = 'https://api.line.me/v2/bot/message/' . $uri;
 
 		$data = [
@@ -119,6 +119,47 @@ class Line_m extends CI_Model {
 		$context  = stream_context_create($opts);
 		return $result = file_get_contents($url, false, $context);
 	}
+
+	private function sendGetRequest($uri)
+	{
+		$url = 'https://api.line.me/v2/bot/'.$uri;
+
+		$header[] = "Authorization: Bearer " . $this->accessToken;
+
+		$opts = [
+			'http' => [
+				'method'  => 'GET',
+				'header'  => implode("\n", $header)
+				]
+			];
+		$context  = stream_context_create($opts);
+		return $result = file_get_contents($url, false, $context);
+	}
+
+
+	function saveUser($uid)
+	{
+		// ambil data profile dari line
+		$profile = json_decode($this->sendGetRequest("profile/".$uid), true);
+
+		// simpan data user ke database
+		$data = [
+			'uid' => $uid,
+			'nama' => $profile['displayName'],
+			'avatar' => $profile['pictureUrl']
+		];
+
+		$this->db->insert('users', $data);
+		return $data;
+	}
+
+	function deleteUser($uid)
+	{
+		$this->db->where('uid', $uid)->delete('users');
+		return $this->db->affected_rows();
+	}
+
+
 
 
 }

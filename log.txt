@@ -1,149 +1,138 @@
-{}
-{"events":[{"type":"follow","replyToken":"3690fd22455040279e25a25e6fd98230","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400554220}]}
-{"events":[{"type":"follow","replyToken":"3690fd22455040279e25a25e6fd98230","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400554220}]}
-{"events":[{"type":"follow","replyToken":"3690fd22455040279e25a25e6fd98230","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400554220}]}
-{"events":[{"type":"follow","replyToken":"3690fd22455040279e25a25e6fd98230","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400554220}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"test"}}]}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"test"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-
-
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-
-
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{}
-{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400549318}]}
-{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400549318}]}
-{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400549318}]}
-{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400549318}]}
-{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400549318}]}
-{"events":[{"type":"follow","replyToken":"3690fd22455040279e25a25e6fd98230","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400554220}]}
-{}
-{}
-{}
-{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400549318}]}
-{"events":[{"type":"follow","replyToken":"3690fd22455040279e25a25e6fd98230","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400554220}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"test"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"ayam"}}]}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"ayam"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"ayam"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"test"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"ayam"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"kuda"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"kuda"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"kuda"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"kuda"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"kuda"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"ayam"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"kuda"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"kuda"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"kuda"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"kuda"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"kuda"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"kuda"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"ayam"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"ayam"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"ayam"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"ziLOng"}}]}
-{}
-{}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"mulai"}}]}
-{}
-{"events":[{"type":"message","replyToken":"97e3df9780ee403984a4c9639efa4416","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505373004752,"message":{"type":"text","id":"6694327466365","text":"naruti"}}]}
-{}
-{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400549318}]}
-{"events":[{"type":"follow","replyToken":"3690fd22455040279e25a25e6fd98230","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505400554220}]}
-{}
-{}
-{}
+{"events":[{"type":"message","replyToken":"0e77c15d80cb4ffa9615cbe021be2304","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505535006747,"message":{"type":"text","id":"6703692706175","text":"Haaai"}}]}{"events":[{"type":"message","replyToken":"c1e3a18c1fb6417d88064ebf41a1264f","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505535094063,"message":{"type":"text","id":"6703698699616","text":"Coba"}}]}{"events":[{"type":"message","replyToken":"e913828ea4864295a323f07743746647","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505535100539,"message":{"type":"text","id":"6703699146787","text":"Tes"}}]}{
+    "events": [
+        {
+            "type": "message",
+            "replyToken": "e913828ea4864295a323f07743746647",
+            "source": {
+                "userId": "U3cc5055a5edee58cec04540a1ed0fe02",
+                "type": "user"
+            },
+            "timestamp": 1505535100539,
+            "message": {
+                "type": "text",
+                "id": "6703699146787",
+                "text": "Tes"
+            }
+        }
+    ]
+}{"events":[{"type":"message","replyToken":"eef0bc2294544c2a887c8fcc5edcc579","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505536096937,"message":{"type":"text","id":"6703767265545","text":"Hayooo"}}]}{"events":[{"type":"message","replyToken":"f9a0615c545041509d91909e67fae666","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505536119669,"message":{"type":"sticker","id":"6703768822436","stickerId":"6","packageId":"1"}}]}{"events":[{"type":"message","replyToken":"d78653ba3e044ed9a754ed29dfa1ec63","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505537798624,"message":{"type":"text","id":"6703881547024","text":"Apakah Palupi bisa ngoding? "}}]}{"events":[{"type":"message","replyToken":"bd0349e8cee848ab9b23b293d026efbb","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505537836685,"message":{"type":"text","id":"6703884066047","text":"Apakah Palupi ganteng? "}}]}{"events":[{"type":"message","replyToken":"1d69c82436214b3583f14ed729f026e4","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505537860498,"message":{"type":"text","id":"6703885643086","text":"Apakah saya bisa punya istri dua? "}}]}{"events":[{"type":"message","replyToken":"9a325e574eee4db1837aa09e4ffad1fe","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505537870634,"message":{"type":"text","id":"6703886317277","text":"Apakah benar? "}}]}{"events":[{"type":"message","replyToken":"0043bbe0c3784edea8cfd1719ce5f0ab","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505537882399,"message":{"type":"text","id":"6703887095441","text":"Apakah"}}]}{"events":[{"type":"message","replyToken":"e66e20c4c8834257939805fb94cdcce9","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505537886406,"message":{"type":"text","id":"6703887364514","text":"Oooyy"}}]}{"events":[{"type":"message","replyToken":"7e3235e0dc5c4020a1fc2383d0023ac0","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505537929731,"message":{"type":"text","id":"6703890238970","text":"Apakah bla bla bla? "}}]}{"events":[{"type":"message","replyToken":"c1b2ea35ef0f420ca98b134b40be195f","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505537940501,"message":{"type":"text","id":"6703890964299","text":"Apakah begini? "}}]}{"events":[{"type":"message","replyToken":"74e06a4ebc5146a2a76e46ad80e3ba57","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505537951275,"message":{"type":"text","id":"6703891683220","text":"Apakah begitu? "}}]}{"events":[{"replyToken":"00000000000000000000000000000000","type":"message","timestamp":1451617200000,"source":{"type":"user","userId":"Udeadbeefdeadbeefdeadbeefdeadbeef"},"message":{"id":"100001","type":"text","text":"Hello,world"}},{"replyToken":"ffffffffffffffffffffffffffffffff","type":"message","timestamp":1451617210000,"source":{"type":"user","userId":"Udeadbeefdeadbeefdeadbeefdeadbeef"},"message":{"id":"100002","type":"sticker","packageId":"1","stickerId":"1"}}]}{"events":[{"replyToken":"00000000000000000000000000000000","type":"message","timestamp":1451617200000,"source":{"type":"user","userId":"Udeadbeefdeadbeefdeadbeefdeadbeef"},"message":{"id":"100001","type":"text","text":"Hello,world"}},{"replyToken":"ffffffffffffffffffffffffffffffff","type":"message","timestamp":1451617210000,"source":{"type":"user","userId":"Udeadbeefdeadbeefdeadbeefdeadbeef"},"message":{"id":"100002","type":"sticker","packageId":"1","stickerId":"1"}}]}{"events":[{"type":"message","replyToken":"e26e259297f44652a7e7ad93ade7574d","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505544030821,"message":{"type":"text","id":"6704278948717","text":"Tes"}}]}{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505544046018}]}{"events":[{"type":"follow","replyToken":"1be46baf4aa1456398adf769097f88a4","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505544067574}]}{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505544136509}]}{"events":[{"type":"follow","replyToken":"3d6cfeb4a4e2415baa32aa88782834a5","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505544158672}]}{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505544327380}]}{"events":[{"type":"follow","replyToken":"40e3848d169043f9b669d21b38176eae","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505544336040}]}{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505544402872}]}{"events":[{"type":"follow","replyToken":"98a1f65ef1794b2cadb4cde2e2ae9a36","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505544407296}]}{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505544552935}]}{"events":[{"type":"follow","replyToken":"ada955326b5644998dd40346f0c4a983","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505544555815}]}{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505544574633}]}{
+    "events": [
+        {
+            "type": "follow",
+            "replyToken": "ada955326b5644998dd40346f0c4a983",
+            "source": {
+                "userId": "U3cc5055a5edee58cec04540a1ed0fe02",
+                "type": "user"
+            },
+            "timestamp": 1505544555815
+        }
+    ]
+}{
+    "events": [
+        {
+            "type": "follow",
+            "replyToken": "ada955326b5644998dd40346f0c4a983",
+            "source": {
+                "userId": "U3cc5055a5edee58cec04540a1ed0fe02",
+                "type": "user"
+            },
+            "timestamp": 1505544555815
+        }
+    ]
+}{
+    "events": [
+        {
+            "type": "follow",
+            "replyToken": "ada955326b5644998dd40346f0c4a983",
+            "source": {
+                "userId": "U3cc5055a5edee58cec04540a1ed0fe02",
+                "type": "user"
+            },
+            "timestamp": 1505544555815
+        }
+    ]
+}{
+    "events": [
+        {
+            "type": "follow",
+            "replyToken": "ada955326b5644998dd40346f0c4a983",
+            "source": {
+                "userId": "U3cc5055a5edee58cec04540a1ed0fe02",
+                "type": "user"
+            },
+            "timestamp": 1505544555815
+        }
+    ]
+}{
+    "events": [
+        {
+            "type": "follow",
+            "replyToken": "ada955326b5644998dd40346f0c4a983",
+            "source": {
+                "userId": "U3cc5055a5edee58cec04540a1ed0fe02",
+                "type": "user"
+            },
+            "timestamp": 1505544555815
+        }
+    ]
+}{
+    "events": [
+        {
+            "type": "follow",
+            "replyToken": "ada955326b5644998dd40346f0c4a983",
+            "source": {
+                "userId": "U3cc5055a5edee58cec04540a1ed0fe02",
+                "type": "user"
+            },
+            "timestamp": 1505544555815
+        }
+    ]
+}{
+    "events": [
+        {
+            "type": "follow",
+            "replyToken": "ada955326b5644998dd40346f0c4a983",
+            "source": {
+                "userId": "U3cc5055a5edee58cec04540a1ed0fe02",
+                "type": "user"
+            },
+            "timestamp": 1505544555815
+        }
+    ]
+}{
+    "events": [
+        {
+            "type": "follow",
+            "replyToken": "ada955326b5644998dd40346f0c4a983",
+            "source": {
+                "userId": "U3cc5055a5edee58cec04540a1ed0fe02",
+                "type": "user"
+            },
+            "timestamp": 1505544555815
+        }
+    ]
+}{
+    "events": [
+        {
+            "type": "follow",
+            "replyToken": "ada955326b5644998dd40346f0c4a983",
+            "source": {
+                "userId": "U3cc5055a5edee58cec04540a1ed0fe02",
+                "type": "user"
+            },
+            "timestamp": 1505544555815
+        }
+    ]
+}{
+    "events": [
+        {
+            "type": "follow",
+            "replyToken": "ada955326b5644998dd40346f0c4a983",
+            "source": {
+                "userId": "U3cc5055a5edee58cec04540a1ed0fe02",
+                "type": "user"
+            },
+            "timestamp": 1505544555815
+        }
+    ]
+}{"events":[{"type":"follow","replyToken":"6e0f935020354d9993f67356d571e20e","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505545331865}]}{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505545363065}]}{"events":[{"type":"follow","replyToken":"aab1b69fd7fa4f188debad69ef960acf","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505545402542}]}{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505545455197}]}{"events":[{"type":"follow","replyToken":"dc0a2449889e4e3f80425899b01f8d1a","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505545458792}]}{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505545490184}]}{"events":[{"type":"follow","replyToken":"c299bd15e64448139ff6d03e2da45b03","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505545495685}]}{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505545960358}]}{"events":[{"type":"follow","replyToken":"2b17d2e347c445bd93e57ba288ae18f5","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505545973243}]}{"events":[{"type":"unfollow","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505546128669}]}{"events":[{"type":"follow","replyToken":"794f1155e288464fb38e79b9d746a502","source":{"userId":"U3cc5055a5edee58cec04540a1ed0fe02","type":"user"},"timestamp":1505546142134}]}

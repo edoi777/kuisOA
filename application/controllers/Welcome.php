@@ -11,12 +11,67 @@ class Welcome extends CI_Controller
 
 	public function index()
 	{
-		$uid = 'U3cc5055a5edee58cec04540a1ed0fe02';
+		$body = file_get_contents('php://input');
+		$this->writeLog($body);
 
-		$messages[] = $this->line_m->createTextMessage('Haaaai');
-		$messages[] = $this->line_m->createStickerMessage(1, 1);
+		$notifs = json_decode($body, true);
+		foreach ($notifs['events'] as $event) {
+			// $event['type']
+			// $event['replyToken']
+			// $event['source']['type']
+			// $event['source']['userId']
+			// $event['source']['userId']
+			// $event['timestamp']
+			// $event['message']['type']
+			// $event['message']['id']
+			// $event['message']['text']
+			
+			$uid = $event['source']['userId'];
+
+			if($event['type'] == 'message'){
+				if($event['message']['type'] == 'text')
+					$this->respondTextMessage($event);
+			}
+
+			else if ($event['type'] == 'follow'){
+				$this->respondFollow($event);
+			}
+
+			else if ($event['type'] == 'unfollow'){
+				$this->respondUnfollow($event);
+			}
+		};
+	}
+
+	function respondTextMessage($event)
+	{
+		$uid = $event['source']['uid'];
+		$text = $event['message']['text'];
+		$opsi = ['Ya', 'Tidak', 'Boleh jadi', 'Ga mungkin'];
+		$jawaban = $opsi[array_rand($opsi)];
+		$messages[] = $this->line_m->createTextMessage($jawaban);
 
 		$this->line_m->sendRequest($uid, 'push', $messages);
+	}
+
+	function respondFollow($event)
+	{
+		$users = $this->line_m->saveUser($event['source']['userId']);
+
+		$messages[] = $this->line_m->createTextMessage("Selamat datang, ". $users['nama']);
+
+		$this->line_m->sendRequest($users['uid'], 'push', $messages);
+	}
+
+	function respondUnfollow($event)
+	{
+		$this->line_m->deleteUser($event['source']['userId']);
+	}
+
+	function writeLog($content)
+	{
+		$this->load->helper('file');
+		write_file('log.txt', $content, 'a+');
 	}
 
 }
