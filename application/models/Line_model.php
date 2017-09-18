@@ -11,101 +11,59 @@ class Line_model extends CI_Model {
 		$this->load->database();
 	}
 
-	public function pushTextMessage($uid, $text)
+		function createTextMessage($text)
 	{
-		$data['to'] = $uid;
-		$data['messages'] = [
-			[
-				'type' => 'text', 
-				'text' => $text
-			]
+		return [
+			'type' => 'text',
+			'text' => $text
 		];
-
-		$result = $this->sendRequest('https://api.line.me/v2/bot/message/push', $data);
-		$this->writeLog($result);
-		return $result;
 	}
 
-	public function pushStickerMessage($uid, $packageId, $stickerId)
+	function createStickerMessage($packageId, $stickerId)
 	{
-		$data['to'] = $uid;
-		$data['messages'] = [
-			[
-			  "type" => "sticker",
-			  "packageId" => $packageId,
-			  "stickerId" => $stickerId
-			]
+		return [
+			'type' => 'sticker',
+			'packageId' => $packageId,
+			'stickerId' => $stickerId
 		];
+	}	
 
-		$result = $this->sendRequest('https://api.line.me/v2/bot/message/push', $data);
-		$this->writeLog($result);
-		return $result;
+	function createImageMessage($imageUrl, $thumbnailUrl = false)
+	{
+		return [
+		    "type" => "image",
+		    "originalContentUrl" => $imageUrl,
+		    "previewImageUrl" => $thumbnailUrl ? $thumbnailUrl : $imageUrl,
+		];
+	}	
+
+	function createVideoMessage($videoUrl, $thumbnailUrl)
+	{
+		return [
+		    "type" => "video",
+		    "originalContentUrl" => $videoUrl,
+		    "previewImageUrl" => $thumbnailUrl,
+		];
+	}	
+
+	function createAudioMessage($audioUrl, $duration)
+	{
+		return [
+		    "type" => "audio",
+		    "originalContentUrl" => $audioUrl,
+		    "duration" => $duration
+		];
 	}
 
-	public function pushImageMessage($uid, $thumbnailUrl, $imageUrl = false)
+	function createLocationMessage($title, $address, $lat, $long)
 	{
-		$data['to'] = $uid;
-		$data['messages'] = [
-			[
-			    "type" => "image",
-			    "previewImageUrl" => $thumbnailUrl,
-			    "originalContentUrl" => $imageUrl ? $imageUrl : $thumbnailUrl
-			]
+		return [
+		    "type" => "location",
+		    "title" => $title,
+		    "address" => $address,
+		    "latitude" => $lat,
+		    "longitude" => $long
 		];
-
-		$result = $this->sendRequest('https://api.line.me/v2/bot/message/push', $data);
-		$this->writeLog($result);
-		return $result;
-	}
-
-	public function pushVideoMessage($uid, $thumbnailUrl, $videoUrl)
-	{
-		$data['to'] = $uid;
-		$data['messages'] = [
-			[
-			    "type" => "video",
-			    "previewImageUrl" => $thumbnailUrl,
-			    "originalContentUrl" => $videoUrl
-			]
-		];
-
-		$result = $this->sendRequest('https://api.line.me/v2/bot/message/push', $data);
-		$this->writeLog($result);
-		return $result;
-	}
-
-	public function pushAudioMessage($uid, $audioUrl, $duration)
-	{
-		$data['to'] = $uid;
-		$data['messages'] = [
-			[
-			    "type" => "audio",
-			    "originalContentUrl"=> $audioUrl,
-			    "duration" => $duration
-			]
-		];
-
-		$result = $this->sendRequest('https://api.line.me/v2/bot/message/push', $data);
-		$this->writeLog($result);
-		return $result;
-	}
-
-	public function pushLocationMessage($uid, $title, $address, $lat, $long)
-	{
-		$data['to'] = $uid;
-		$data['messages'] = [
-			[
-			    "type" => "location",
-			    "title" => $title,
-			    "address" => $address,
-			    "latitude" => $lat,
-			    "longitude" => $long
-			]
-		];
-
-		$result = $this->sendRequest('https://api.line.me/v2/bot/message/push', $data);
-		$this->writeLog($result);
-		return $result;
 	}
 
 	private function sendRequest($url, $data = [])
