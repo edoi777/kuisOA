@@ -1,5 +1,7 @@
 # TebakKata - LINE Chatbot Sample
 
+This is sample of LINE chatbot app. It uses CodeIgniter PHP framework. We only use controller Webhook.php and model Line_model.php for this chatbot. 
+
 ## How to install
 
 - clone or download repo, place on your server
