@@ -3,7 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Webhook extends CI_Controller {
 
-	private $myUID = "U3cc5055a5edee58cec04540a1ed0fe02";
 	private $user;
 
 	function __construct()
@@ -17,7 +16,7 @@ class Webhook extends CI_Controller {
 
 		// if it is not POST request, just say hello
 		if ($_SERVER['REQUEST_METHOD'] !== 'POST')
-			die("Hai gaes. Nothing here :P");
+			die("Hi Guys. Service ready");
 
 		$body = file_get_contents('php://input');
 		$this->line_model->writeLog($body);
